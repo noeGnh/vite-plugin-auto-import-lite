@@ -1,0 +1,16 @@
+{
+  "name": "playground",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "plugin": "workspace:*"
+  },
+  "devDependencies": {
+    "vite": "^4.5.14"
+  }
+}
