@@ -12,8 +12,15 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": false,
+    "allowJs": true,
     "forceConsistentCasingInFileNames": true,
     "composite": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "*.d.ts"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "*.d.ts"
+  ]
 }

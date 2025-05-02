@@ -1,0 +1,51 @@
+{
+  "name": "vite-plugin-auto-import-lite",
+  "description": "Lite vite plugin for auto importing modules",
+  "version": "0.0.1",
+  "private": false,
+  "author": "Noé Gnanih <noegnanih@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./*": "./*"
+  },
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format cjs,esm --clean",
+    "lint": "eslint 'src/**/*.{ts}'",
+    "version": "auto-changelog --template keepachangelog --hide-credit -p && git add CHANGELOG.md"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.1.4",
+    "@vue/compiler-sfc": "^3.5.13",
+    "unimport": "^5.0.0",
+    "vite": "^4.5.14"
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.5.0",
+    "tsup": "^8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noeGnh/vite-plugin-auto-import-lite"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/noeGnh/vite-plugin-auto-import-lite/issues"
+  },
+  "homepage": "https://github.com/noeGnh/vite-plugin-auto-import-lite#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

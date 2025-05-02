@@ -6,14 +6,11 @@
     },
     // Plugin
     {
-      "path": "./packages/plugin/tsconfig.app.json"
-    },
-    {
-      "path": "./packages/plugin/tsconfig.vitest.json"
+      "path": "./packages/vite-plugin-auto-import-lite/tsconfig.json"
     },
     // Playground
     {
-      "path": "./packages/playground/tsconfig.app.json"
+      "path": "./packages/playground/tsconfig.json"
     }
   ]
 }

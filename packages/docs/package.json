@@ -8,11 +8,11 @@
   "license": "MIT",
   "main": "index.ts",
   "directories": {
-    "plugin": "plugin",
+    "plugin": "vite-plugin-auto-import-lite",
     "test": "__tests__"
   },
   "files": [
-    "plugin"
+    "vite-plugin-auto-import-lite"
   ],
   "scripts": {
     "dev": "vitepress dev .",
@@ -20,7 +20,7 @@
     "lint": "eslint '.vitepress/**/*.{ts}'"
   },
   "dependencies": {
-    "plugin": "workspace:*"
+    "vite-plugin-auto-import-lite": "workspace:*"
   },
   "devDependencies": {
     "vitepress": "^1.6.3"
