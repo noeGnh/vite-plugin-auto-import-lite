@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-auto-import-lite-monorepo",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Vite plugin auto import lite monorepo template",
   "author": "Noé Gnanih <noegnanih@gmail.com>",
   "license": "MIT",
