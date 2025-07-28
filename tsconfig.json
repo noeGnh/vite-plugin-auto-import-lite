@@ -8,9 +8,12 @@
     {
       "path": "./packages/vite-plugin-auto-import-lite/tsconfig.json"
     },
-    // Playground
+    // Playgrounds
     {
       "path": "./packages/playground/tsconfig.json"
+    },
+    {
+      "path": "./packages/playground-2/tsconfig.json"
     }
   ]
 }

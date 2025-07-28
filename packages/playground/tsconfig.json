@@ -3,7 +3,7 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "strict": true,
     "jsx": "preserve",
     "resolveJsonModule": true,
@@ -14,13 +14,15 @@
     "noEmit": false,
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
-    "composite": true
+    "composite": true,
+    "types": ["vite/client"]
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
+    "vite.config.ts",
     "*.d.ts"
   ]
 }

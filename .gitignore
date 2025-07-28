@@ -5,6 +5,8 @@ dist/
 packages/docs/.vitepress/cache
 packages/*/dist
 packages/*/types
+packages/*/auto-imports.d.ts
+*.tsbuildinfo
 
 # local env files
 .env.local
